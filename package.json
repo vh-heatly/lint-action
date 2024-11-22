@@ -78,5 +78,6 @@
 			"./test/mock-actions-core.js"
 		]
 	},
-	"prettier": "@samuelmeuli/prettier-config"
+	"prettier": "@samuelmeuli/prettier-config",
+	"packageManager": "yarn@1.22.22"
 }
