@@ -1,3 +1,7 @@
+# Aira Fork
+
+This is a fork of the [wearerequired/lint-action](https://github.com/wearerequired/lint-action) repository, fixing [a bug](https://github.com/wearerequired/lint-action/issues/835) that's causing a lot of confusion with failed PR builds. We should switch back once they fix it in some way.
+
 # ✨ Lint Action
 
 - **Shows linting errors** on GitHub commits and PRs

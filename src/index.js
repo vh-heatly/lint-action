@@ -52,7 +52,11 @@ async function runAction() {
 		// - "pull_request" event on origin, for code on fork: Same as above, but the repo/branch where
 		//   changes need to be pushed is not yet available. The fork needs to be added as a Git remote
 		//   first
-		git.checkOutRemoteBranch(context);
+
+		// COMMENTED OUT in this Aira fork because of:
+		// https://github.com/wearerequired/lint-action/issues/835
+		//
+		// git.checkOutRemoteBranch(context);
 	}
 
 	let headSha = git.getHeadSha();
